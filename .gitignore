@@ -1,0 +1,14 @@
+# Archivos de sistema y temporales
+.DS_Store
+Thumbs.db
+
+# Archivos de compilación o caché
+dist/
+build/
+*.log
+
+# Configuración de editores de código
+.vscode/
+.idea/
+*.swp
+*.swo
