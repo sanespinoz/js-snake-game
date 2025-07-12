@@ -98,8 +98,8 @@ const checkEat = () => {
     let y = randomPosition();
 
     while (snake.find((position) => position.x == x && position.y == y)) {
-      let x = randomPosition();
-      let y = randomPosition();
+      x = randomPosition();
+      y = randomPosition();
     }
     food.x = x;
     food.y = y;
