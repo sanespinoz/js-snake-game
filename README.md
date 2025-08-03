@@ -5,7 +5,9 @@
 Juego clásico de la serpiente (Snake) implementado con **JavaScript**, **HTML** y **CSS**.  
 Incluye práctica de **CI/CD con GitHub Actions** para análisis estático del código.
 
-## 🎮 ¿Cómo jugar?
+🔗 **Jugar online**: [https://sanespinoz.github.io/js-snake-game/](https://sanespinoz.github.io/js-snake-game/)
+
+## 🎮 ¿Cómo jugar localmente?
 
 1. Cloná este repositorio:
    ```bash
@@ -23,11 +25,14 @@ Incluye práctica de **CI/CD con GitHub Actions** para análisis estático del c
 - HTML5 Canvas
 - CSS3
 - GitHub Actions (linting automático)
+- GitHub Pages (deployment automático)
 
 ## 📌 CI/CD
 
 Este proyecto cuenta con integración continua usando GitHub Actions:  
 Cada vez que se hace push, se ejecuta un análisis estático del código con `eslint`.
+
+Además, el despliegue se realiza automáticamente usando **GitHub Pages**.
 
 ## 📄 Licencia
 
